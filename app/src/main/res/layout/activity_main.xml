@@ -31,10 +31,20 @@
             android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter Email Address"
+            android:hint="Email Address"
             android:layout_below="@id/textCreateAccount"
             android:layout_marginTop="20dp"
             android:inputType="textEmailAddress"/>
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:password="true"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_below="@id/textCreateAccount"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            tools:ignore="Deprecated" />
 
         <Button
             android:id="@+id/btnContinue"
@@ -68,7 +78,8 @@
             android:text="Log in"
             android:layout_toRightOf="@id/textAlreadyHaveAccount"
             android:layout_below="@id/btnContinue"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="20dp"
+            android:linksClickable="true"/>
 
     </LinearLayout>
 

@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">RockPaperScissors</string>
     <string name="alreadyHaveAnAccount">Already have an account? Sign in here</string>
+    <string name="needToMakeAccount">Need to make an account?</string>
     <string name="welcome"></string>
     <string name="signUp"> Create your account</string>
+    <string name="signIn"> Sign in </string>
 </resources>
